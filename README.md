@@ -7,7 +7,7 @@
 
 I. [Intro to Gradient Boosting](https://github.com/GHASS19/Intro_to_Gradient_Boosting)
 
-Main objective:
+### Main objective:
 
  - Understand the conceptual difference between bagging and boosting ensembles.
 
@@ -17,7 +17,7 @@ Main objective:
 
 II. [Data Cleaning Exercise](https://github.com/GHASS19/Data_Cleaning_Exercise)
 
- Main objective:
+ ### Main objective:
  
 - Was to clean the  climbing data to prepare it for modeling and machine learning.
 
@@ -25,7 +25,7 @@ II. [Data Cleaning Exercise](https://github.com/GHASS19/Data_Cleaning_Exercise)
 
 III. [Automated Feature Engineering](https://github.com/GHASS19/Feature_Engineering)
 
-Main Objective:
+### Main Objective:
 
 - Using automated feature engineering as to build hundreds or thousands of relevant features from a relational dataset.
 
@@ -35,7 +35,7 @@ Main Objective:
 
 IV. [Real Estate Investment Plan](https://github.com/GHASS19/Real_Estate_Investment_Plan)
 
-Main Objective:
+### Main Objective:
 
 - Using a real estate database, find a state for an ivestment property with optimum traits.
 
