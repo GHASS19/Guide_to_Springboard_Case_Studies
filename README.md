@@ -163,7 +163,7 @@
 - Recall: Did not survive 0 = 75%. Survived 1 = 93%.
 - F1-Score: Did not survive 0 = 79%. Survived 1 = 90%.
 
-## 9. [Covid-19 Random Forest Classifier Model](https://github.com/GHASS19/Random_Forest_Covid19_Case_Study)
+## 9. [Covid-19 Random Forest Classification Model](https://github.com/GHASS19/Random_Forest_Covid19_Case_Study)
 
 ### Main Ideas
 - I will predict if a patient is released from the hospital, isolated or deceased from the virus using a dataset from South Korea in Decemberand January of 2020 using a random forest multiclass model.
@@ -197,3 +197,16 @@
 ## 13. [API Mini Project with a JSON File](https://github.com/GHASS19/API-Mini-Project-JSON-File)
 
 ### Main Ideas
+- Using equities data from the Frankfurt Stock Exhange (FSE) using an API key I analyzed the stock prices of a company called Carl Zeiss Meditec.
+- I converted the JSON file on the company's equities data into python dictionary.
+- Then I answered six questions regarding the data, like what was the largest change in any one day (based on High and Low price)? Which was 2.81 in any one day for 2017.
+
+
+## 14. [Integrating Phone Apps with a Permutation Test](https://github.com/GHASS19/Integrating-Apps)
+
+## Main Ideas
+- The main objective was to find out if Apple Store apps received better reviews than the Google Play apps using a permutation test.
+- The Null hypothesis was: the observed difference in the mean rating of Apple Store and Google Play apps is due to chance (and thus not due to the platform).
+- The Alternative hypothesis was: the observed difference in the average ratings of apple and google users is not due to chance (and is actually due to platform).
+- The observed data is statistically significant. The p-value is 0 and we will reject the null.
+- I decided that the platform does have an impact on ratings. I will advise our client to integrate only Google Play into their operating system interface.
