@@ -60,7 +60,7 @@
  
  - We should also run analytics on situational football. Finding out the probability of converting a first down on a 4th & 2 from our 26th yard line would be beneficial to the coach making a decision to go for it or not.
 
-3. [Predicting the Price of a Property](https://github.com/GHASS19/Predicting-the-Price-of-a-Property)
+## 3. [Predicting the Price of a Property](https://github.com/GHASS19/Predicting-the-Price-of-a-Property)
 
 ### Main Ideas
 
