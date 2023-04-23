@@ -4,11 +4,11 @@
 
 # Capstones
 
-1. [Ski Ticket Price Predictor](https://github.com/GHASS19/Ski_Ticket_Price_Predictor_Capstone)
+## 1. [Adult Weekend Ski Ticket Price Predictor](https://github.com/GHASS19/Ski_Ticket_Price_Predictor_Capstone)
 
 ### Main Ideas
 
-- Test two models to predict the price of a ski ticket for an adult on the weekend at Big Moutain Ski Resort in Montana.
+- Test two models to predict the price of a ski ticket for an adult on the weekend at Big Moutain Ski Resort in Montana based upon certain varibles from all ski resorts in America.
 
 - I used cross validation in linear regression and random forest to predict the price.
 
@@ -36,11 +36,61 @@
 
 - The resort needs data on maintenance cost to make a solid decision going forward.
 
-# Tutorials
+## 2. [Quaterback Touchdown Prediction Model](https://github.com/GHASS19/QB_Touchdown_Prediction_Capstone)
+
+### Main Ideas
+
+- I created a random forest model to predict how many TDs a QB will throw in an NFL game based upon variables from every QB in the last 20 years worth of data.
+
+- Linear Regresssion, Ridge Regression and Lasso Regression were the other three models I tried on the data.
+
+- The random forest model had a very solid MAE of .006 and RMSE of .06 on the test data. The CV average & Grid Search CV for Random Forest had a very high R2 score of .9977 and .9979.
+
+### Key Findings
+
+- According to the heat map the top three correlations were Attempts & Completions at .94, Attempts & TDs at .87 and Completions & Yards at .91.
+
+- The highest negitive correlation was Interceptions & Rate at -.44.
+
+- The distribution of the data showed us that many of the touchdowns thrown in a game were in the range of 0-3 and that there was not many 4-7 touchdowns.
+
+### Recomendations
+ 
+ - Run models on every stat we have on defense, special teams and offense to predict how every player might perform at each position. This would help to evaluate free agents and our own players.
+ 
+ - We should also run analytics on situational football. Finding out the probability of converting a first down on a 4th & 2 from our 26th yard line would be beneficial to the coach making a decision to go for it or not.
+
+3. [Predicting the Price of a Property](https://github.com/GHASS19/Predicting-the-Price-of-a-Property)
+
+### Main Ideas
+
+- I tested four different models with a standard scaler on each one for my supervised regression price prediction of a home in the Seattle metro area.
+
+- The most accurate R2 score on the test data was Linear Regression at .4696. It would be hard to predict the price of a home if you get less than half of them correct.
+
+### Key Findings
+
+- There was many outliers with a high amount of square feet for living, above and below ground level.
+
+- The majority of homes that were sold had a good condition rating of 3-5.
+
+- As the number of bedrooms increased so did the amount of bathrooms in a particular house increase too.
+
+- Most of the homes had between three and six bedrooms.
+
+- There was a positive correlation between price and square feet of living space at .43.
+
+### Recomendations
+
+- The company needs to obtain or collect more data to create a better regression model to predict the price of a home for their buyers and sellers.The more information we can obtain the better we can help serve our potential clients. This would give us a competitive advantage over other real estate firms.
+
+- I also suggest running models on all the variables to help clients. This would help them understand how much square feet of living space you can expect with the other independent variables. Or how many bedrooms they could expect with certain X variables.
+
+# Springboard Tutorials
 
 ## I. [Intro to Gradient Boosting](https://github.com/GHASS19/Intro_to_Gradient_Boosting)
 
-### Main Objectives:
+### Main Objectives
 
  - Understand the conceptual difference between bagging and boosting ensembles.
 
@@ -50,15 +100,15 @@
 
 ## II. [Data Cleaning Exercise](https://github.com/GHASS19/Data_Cleaning_Exercise)
 
- ### Main Objectives:
+ ### Main Objectives
  
-- Was to clean the  climbing data to prepare it for modeling and machine learning.
+- Was to clean the climbing data to prepare it for modeling and machine learning.
 
 - What to do with NaN values.
 
 ## III. [Automated Feature Engineering](https://github.com/GHASS19/Feature_Engineering)
 
-### Main Objectives:
+### Main Objectives
 
 - Using automated feature engineering as to build hundreds or thousands of relevant features from a relational dataset.
 
@@ -68,7 +118,7 @@
 
 ## IV. [Real Estate Investment Plan](https://github.com/GHASS19/Real_Estate_Investment_Plan)
 
-### Main Objectives:
+### Main Objectives
 
 - Using a real estate database, find a state for an ivestment property with optimum traits.
 
@@ -80,7 +130,7 @@
 
 ## 1. [Bayesian Optimization LightGBM](https://github.com/GHASS19/Bayesian_Optimization_LightGBM_Case_Study)
 
-### Main Ideas:
+### Main Ideas
 
 - Predict if a flight departure is going to be delayed by 15 minutes based on the variables and then find the best results.
 
@@ -90,7 +140,7 @@
 
 ## 2. [Linear Regression Red Wine Study](https://github.com/GHASS19/Linear-Regression-Case-Study-of-the-Red-Wine-Dataset)
 
-### Main Ideas:
+### Main Ideas
 
 -  I used linear regression to predict the fixed acidity of red wine using just one variable and then mulitple variables.
 
@@ -102,7 +152,7 @@
 
 ## 3. [Cowboy Cigarettes Time Series ARIMA](https://github.com/GHASS19/Cowboy_Cigarettes_Time_Series_Case_Study)
 
-### Main Ideas:
+### Main Ideas
 
 - Use the 1949-1960 data to predict the manufacturer's cigarette sales after they stopped in 1960.
 
@@ -118,7 +168,7 @@
 
 ## 4. [Grid Search in K-Nearest Neighbor Model Case Study](https://github.com/GHASS19/Grid-Search-in-KNN-Model-Case-Study)
 
-### Main Ideas:
+### Main Ideas
 
 - Utilized KNN with 31 different neighbors in predicting if a Pima Indian had diabetes or not. 
 
@@ -126,4 +176,31 @@
 
 - This was a Classification problem in which I used cross validation, precision, recall and f1-score to measure model preformance. 
 
-## 5. 
+## 5. [K-Means Clustering Customer Segmentation](https://github.com/GHASS19/K-Means_Clustering_Customer_Segmentation_Case_Study)
+
+### Main Ideas
+
+- I used K-Means clustering to find out how many groups we could categorize customers in who would potentially purchase wine from the company.
+
+- The data was marketing newsletters, e-mail campaigns and transactions.
+
+- The Principal Components Analysis expresses that the first four to five components explain a majority of the variance.
+
+## 6. [Cosine Similarity](https://github.com/GHASS19/Cosine_Similarity_Case_Study)
+
+## Main Ideas
+-  In this case study I used the cosine similarity to compare a numeric data within a plane of (5,5). The I used a scatter plot to view the way the similarity is calculated using the Cosine angle.
+
+- Also used a text dataset for string matching to test the similarity measure between two different documents, (i.e. Document1 = "Starbucks Coffee" and Document2 = "Essence of Coffee"). 
+
+## 7. [Euclidean and Manhattan Distance](https://github.com/GHASS19/Euclidean_and_Manhattan_Distances_Case_Study)
+
+## Main Ideas
+
+- In this case study I learned the difference between euclidean and Manhattan distances using a colorbar in python. The data set had three coordinates of X,Y and Z.
+
+- First I made a scatter plot of all the euclidean distances of Y and Z in our dataset to our selected location of Y=5, Z=5. 
+
+- Then I made a scatter plot of the manhattan distance of each point to our reference point of X=4, Z=4.
+
+## 8. []()
