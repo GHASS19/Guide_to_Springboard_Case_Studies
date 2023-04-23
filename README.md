@@ -86,6 +86,19 @@
 - Create graphs in matplotlib to analyze where to purchase the investment property.
 - Based upon the data the best place to purchase was the state was Massachusettes. That had a four bed and two bathroom home for less than the mean price.
 
+## V. [Monalco Mining Problem Statement](https://github.com/GHASS19/Monalco_Mining_SMART_problem_statement)
+
+### Main Objectives
+
+- Learned to write a problem statement about a minning company that needs to reduce their maintance cost due to the decrease in the price of iron ore.
+- The problem statement includes:
+- Context
+- Critieria for Success
+- Scope of Solution Space
+- Constraints within Solution Space
+- Stakeholders to Provide key insight
+- Key Data Sources
+
 # Case Studies
 
 ## 1. [Bayesian Optimization LightGBM](https://github.com/GHASS19/Bayesian_Optimization_LightGBM_Case_Study)
@@ -180,3 +193,7 @@
 - Hackney borough had the greatest increase in average home prices at 6.198%.
 - The biggest issue was cleaning the data to make sense of what we were working with. The excel format needed to be changed, and some of the values were irrelevant to the majority of the data.
 - The biggest questions going forward was, which top 5 London Boroughs had the least amount of increase in average home prices over the 20 year time span. Also what Borough had the biggest fluctuation in prices during that time.
+
+## 13. [API Mini Project with a JSON File](https://github.com/GHASS19/API-Mini-Project-JSON-File)
+
+### Main Ideas
