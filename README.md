@@ -197,10 +197,9 @@
 - Answered questions like, Produce a list of facilities with a total revenue less than 1000.
 - Also learned how to use SQL queries in python.
 
-## 12. [London Housing Looking at Data with Python](https://github.com/GHASS19/London-Housing-Case-Study)
+## 12. [London Housing, Looking at Data with Python](https://github.com/GHASS19/London-Housing-Case-Study)
 
 ### Main Ideas
-
 - Using the Data Science pipeline, I found which borough of London has seen the greatest average increase in housing prices over the two decades covered by the dataset.
 - I created a function that calculated a ratio of house prices, comparing the price of a home in 2018 to the price in 1998.
 - Hackney borough had the greatest increase in average home prices at 6.198%.
