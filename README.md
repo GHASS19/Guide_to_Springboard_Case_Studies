@@ -219,3 +219,24 @@
 
 - F1-Score: Did not survive 0 = 79%. Survived 1 = 90%.
 
+## 9. [Random Forest Classifier Model Covid-19](https://github.com/GHASS19/Random_Forest_Covid19_Case_Study)
+
+### Main Ideas
+
+- I will predict if a patient is released from the hospital, isolated or deceased from the virus using a dataset from South Korea in Decemberand January of 2020 using a random forest multiclass model.
+
+- Here I had an imbalanced data set. Many of the patients are in isolation compared to the other two states of the patient's health.
+
+- The random forest had an Accuracy of 0.865 and a f1-score of 0.832. The model was very good at predicting if a patient was released at .99.
+
+## 10. [RR Diner Coffee Random Forest Classification Model](https://github.com/GHASS19/RR-Diner-Coffee-Decision-Tree-Case-Study)
+
+### Main Ideas
+
+- I built a decision tree to predict how many units of the Hidden Farm Chinese coffee will be purchased by RR Diner Coffee's most loyal customers. 
+
+- If we predict more than 70% of customers would then we will go ahead with the business contract with Hidden Farm.
+
+- Used scikitlearn to build four different decision tree models — two using entropy and two using gini impurity.
+
+-  Then I used a random forest model which predicted that 82.89% of customers would pruchase the coffee and thus we should sign the contract with Hidden Farm.
