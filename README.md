@@ -188,14 +188,14 @@
 
 ## 6. [Cosine Similarity](https://github.com/GHASS19/Cosine_Similarity_Case_Study)
 
-## Main Ideas
+### Main Ideas
 -  In this case study I used the cosine similarity to compare a numeric data within a plane of (5,5). The I used a scatter plot to view the way the similarity is calculated using the Cosine angle.
 
 - Also used a text dataset for string matching to test the similarity measure between two different documents, (i.e. Document1 = "Starbucks Coffee" and Document2 = "Essence of Coffee"). 
 
 ## 7. [Euclidean and Manhattan Distance](https://github.com/GHASS19/Euclidean_and_Manhattan_Distances_Case_Study)
 
-## Main Ideas
+### Main Ideas
 
 - In this case study I learned the difference between euclidean and Manhattan distances using a colorbar in python. The data set had three coordinates of X,Y and Z.
 
@@ -203,4 +203,19 @@
 
 - Then I made a scatter plot of the manhattan distance of each point to our reference point of X=4, Z=4.
 
-## 8. []()
+## 8. [Titanic Gradient Boosting](https://github.com/GHASS19/Titanic-Gradient-Boosting-Case-Study)
+
+### Main Ideas
+
+- Predict if a passenger survived the from the Titanic crashing into the iceberg in 1912.
+
+- Utilize gradient boosting to improve predictions based on information from the residuals.
+
+- Had a 87% prediction rate from the AUC ROC curve for the gradient boosting model.
+
+- Precision: Did not survive 0 = 83%. Survived 1 = 88%.
+
+- Recall: Did not survive 0 = 75%. Survived 1 = 93%.
+
+- F1-Score: Did not survive 0 = 79%. Survived 1 = 90%.
+
