@@ -101,14 +101,14 @@
 
 # Case Studies
 
-## 1. [Bayesian Optimization LightGBM](https://github.com/GHASS19/Bayesian_Optimization_LightGBM_Case_Study)
+## 1. [Bayesian Optimization with LightGBM](https://github.com/GHASS19/Bayesian_Optimization_LightGBM_Case_Study)
 
 ### Main Ideas
 - Predict if a flight departure is going to be delayed by 15 minutes based on the variables and then find the best results.
 - Learn how Bayesian Optimization works with a graph of the Gaussian process.
 - Test the Bayesian optimization on real flight departures data using the Light GBM.
 
-## 2. [Red Wine Linear Regression](https://github.com/GHASS19/Linear-Regression-Case-Study-of-the-Red-Wine-Dataset)
+## 2. [Red Wine with Linear Regression](https://github.com/GHASS19/Linear-Regression-Case-Study-of-the-Red-Wine-Dataset)
 
 ### Main Ideas
 -  I used linear regression to predict the fixed acidity of red wine using just one variable and then mulitple variables.
@@ -116,7 +116,7 @@
 - Exploratory Data Analysis. Displaying heatmaps, pairplot and a few scatterplots.
 - Linear Regression Modeling. Our best model was 4. It had an R2 score of .742 and used fewer predictors. 
 
-## 3. [Cowboy Cigarettes Time Series ARIMA](https://github.com/GHASS19/Cowboy_Cigarettes_Time_Series_Case_Study)
+## 3. [Cowboy Cigarettes Time Series with ARIMA](https://github.com/GHASS19/Cowboy_Cigarettes_Time_Series_Case_Study)
 
 ### Main Ideas
 - Use the 1949-1960 data to predict the manufacturer's cigarette sales after they stopped in 1960.
@@ -126,7 +126,7 @@
 - The ARIMA model predicted cigarette sales starting in December of 1960. 
 - I concluded that people purchased more cigarettes during the summer possibly due to the good weather, disposable income and time off.
 
-## 4. [Diabetes Grid Search in K-Nearest Neighbor Model](https://github.com/GHASS19/Grid-Search-in-KNN-Model-Case-Study)
+## 4. [Diabetes Grid Search with K-Nearest Neighbor Model](https://github.com/GHASS19/Grid-Search-in-KNN-Model-Case-Study)
 
 ### Main Ideas
 - Utilized KNN with 31 different neighbors in predicting if a Pima Indian had diabetes or not. 
@@ -210,3 +210,37 @@
 - The Alternative hypothesis was: the observed difference in the average ratings of apple and google users is not due to chance (and is actually due to platform).
 - The observed data is statistically significant. The p-value is 0 and we will reject the null.
 - I decided that the platform does have an impact on ratings. I will advise our client to integrate only Google Play into their operating system interface.
+
+
+## 15. [Frequentist Inference with a T-Test](https://github.com/GHASS19/Frequentist-Inference-A-and-B-Case-Study)
+
+## Main Ideas
+- I Sampled and calculating probabilities from a normal distribution. Found the correct way to estimate the standard deviation of a population from a sample.
+- Learned how to calculate critical values and confidence intervals.
+- Used the central limit theorem to help me apply frequentist techniques to answer questions that pertain to very non-normally distributed data from the real world.
+- Performed inference using data to answer business questions for a hospital.
+- Forming a hypothesis and framing the null and alternative hypotheses and then testing it with a t-test.
+
+## 16. [Predicting Gender with Logistic Regression](https://github.com/GHASS19/Logistic-Regression-Advanced-Case-Study)
+
+## Main Ideas
+- In this case study I built a logistic regression model that uses a person's height & weight to predict their gender with 92% accuracy.
+- Used a grid search to find the best parameter to predict the gender was with a 'C' of 0.01.
+- If the probability is greater than 0.5, it classifies the sample as type '1' (male), otherwise it classifies the sample to be class '0' with logistic regression.
+
+## 17. [Take Home Challenge with Random Forest, Logistic Regression & Null Hypothesis](https://github.com/GHASS19/Take-Home-Challenge-Ultimate-Technologies-Inc.-)
+
+## Main Ideas
+- This case study was to help me prepare for a take home test for an interview with a company.
+- The first part was exploratory data analysis of the data.
+- The second part was to determine if an experiment was a success. Two cities Gotham and Ultimate Metropolis separated by a bridge have proposed an experiment to encourage public transportation drivers to be available in both cities, by reimbursing all toll costs. They want to know if it is profitable for both cities to do it.
+- Using a null hypothesis test on three important variables, (wait times, profit, and bridge toll payments) would determine if the experiment is a success.
+- The third part of the take home challenge was to determine if a rider was retained and used their transportation in the preceding 30 days using random forest and logistic regression.
+- The cross validation of random forest had the highest accuracy score of .84 at predicting the retention of a rider. The random forest model's precision, recall, auc and cross validation scores were all higher than logistic regression.
+
+## 18. [Take Home Challenge with Random Forest Classifier](https://github.com/GHASS19/Take-Home-Challenge-Relax-Inc-)
+
+## Main Ideas
+- Another case study to prepare me for a take home test for an interview. This was about a company called Relax Inc. that wanted to understand their customer retention and why some never came back to use their product.
+- The random forest classifier model had an accuracy score of 0.705 and a precision score of 0.154. No the best at predicting their customers habits with the dataset.
+- The most important feature in the random forest classifier by far was invited_by_user_id at 0.971558.
