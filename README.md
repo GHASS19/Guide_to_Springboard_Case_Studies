@@ -1,4 +1,4 @@
-# Guide to Springboard Capstones, Tutorials and Case Studies
+# Guide to Springboard Capstones, Case Studies, and Tutorials
 
 ![image](https://user-images.githubusercontent.com/86930309/233186316-14d6a5d3-ac53-4225-896d-691c50f22848.png)
 
@@ -57,47 +57,6 @@
 - The company needs to obtain or collect more data to create a better regression model to predict the price of a home for their buyers and sellers.The more information we can obtain the better we can help serve our potential clients. This would give us a competitive advantage over other real estate firms.
 - I also suggest running models on all the variables to help clients. This would help them understand how much square feet of living space you can expect with the other independent variables. Or how many bedrooms they could expect with certain X variables.
 
-# Springboard Tutorials
-
-## I. [Intro to Gradient Boosting](https://github.com/GHASS19/Intro_to_Gradient_Boosting)
-
-### Main Objectives
-- Understand the conceptual difference between bagging and boosting ensembles.
-- Understand how gradient boosting works for regression tasks.
-- Learn how to tune the key hyperparameters of gradient boosting ensembles.
-
-## II. [Data Cleaning Exercise](https://github.com/GHASS19/Data_Cleaning_Exercise)
-
- ### Main Objectives
-- Was to clean the climbing data to prepare it for modeling and machine learning.
-- What to do with NaN values.
-
-## III. [Automated Feature Engineering](https://github.com/GHASS19/Feature_Engineering)
-
-### Main Objectives
-- Using automated feature engineering as to build hundreds or thousands of relevant features from a relational dataset.
-- Calculating a feature matrix with several hundred relevant features for predicting customer churn.
-- Ensuring that our features are made with valid data for each cutoff time.
-
-## IV. [Real Estate Investment Plan](https://github.com/GHASS19/Real_Estate_Investment_Plan)
-
-### Main Objectives
-- Using a real estate database, find a state for an ivestment property with optimum traits.
-- Create graphs in matplotlib to analyze where to purchase the investment property.
-- Based upon the data the best place to purchase was the state was Massachusettes. That had a four bed and two bathroom home for less than the mean price.
-
-## V. [Monalco Mining Problem Statement](https://github.com/GHASS19/Monalco_Mining_SMART_problem_statement)
-
-### Main Objectives
-
-- Learned to write a problem statement about a minning company that needs to reduce their maintance cost due to the decrease in the price of iron ore.
-- The problem statement includes:
-- Context
-- Critieria for Success
-- Scope of Solution Space
-- Constraints within Solution Space
-- Stakeholders to Provide key insight
-- Key Data Sources
 
 # Case Studies
 
@@ -244,3 +203,46 @@
 - Another case study to prepare me for a take home test for an interview. This was about a company called Relax Inc. that wanted to understand their customer retention and why some never came back to use their product.
 - The random forest classifier model had an accuracy score of 0.705 and a precision score of 0.154. No the best at predicting their customers habits with the dataset.
 - The most important feature in the random forest classifier by far was invited_by_user_id at 0.971558.
+
+
+# Springboard Tutorials
+
+## I. [Intro to Gradient Boosting](https://github.com/GHASS19/Intro_to_Gradient_Boosting)
+
+### Main Objectives
+- Understand the conceptual difference between bagging and boosting ensembles.
+- Understand how gradient boosting works for regression tasks.
+- Learn how to tune the key hyperparameters of gradient boosting ensembles.
+
+## II. [Data Cleaning Exercise](https://github.com/GHASS19/Data_Cleaning_Exercise)
+
+ ### Main Objectives
+- Was to clean the climbing data to prepare it for modeling and machine learning.
+- What to do with NaN values.
+
+## III. [Automated Feature Engineering](https://github.com/GHASS19/Feature_Engineering)
+
+### Main Objectives
+- Using automated feature engineering as to build hundreds or thousands of relevant features from a relational dataset.
+- Calculating a feature matrix with several hundred relevant features for predicting customer churn.
+- Ensuring that our features are made with valid data for each cutoff time.
+
+## IV. [Real Estate Investment Plan](https://github.com/GHASS19/Real_Estate_Investment_Plan)
+
+### Main Objectives
+- Using a real estate database, find a state for an ivestment property with optimum traits.
+- Create graphs in matplotlib to analyze where to purchase the investment property.
+- Based upon the data the best place to purchase was the state was Massachusettes. That had a four bed and two bathroom home for less than the mean price.
+
+## V. [Monalco Mining Problem Statement](https://github.com/GHASS19/Monalco_Mining_SMART_problem_statement)
+
+### Main Objectives
+
+- Learned to write a problem statement about a minning company that needs to reduce their maintance cost due to the decrease in the price of iron ore.
+- The problem statement includes:
+- Context
+- Critieria for Success
+- Scope of Solution Space
+- Constraints within Solution Space
+- Stakeholders to Provide key insight
+- Key Data Sources
