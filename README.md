@@ -7,7 +7,7 @@
 ## 1. [Adult Weekend Ski Ticket Price Predictor](https://github.com/GHASS19/Ski_Ticket_Price_Predictor_Capstone)
 
 ### Main Ideas
-- Test two models to predict the price of a ski ticket for an adult on the weekend at Big Moutain Ski Resort in Montana based upon certain varibles from all ski resorts in America.
+- Here I tested two models to predict the price of a ski ticket for an adult on the weekend at Big Moutain Ski Resort in Montana based upon certain varibles from all ski resorts in America.
 - I used cross validation in linear regression and random forest to predict the price.
 - The random forest model was more accurate. It had a lower mean absolute error by over $1 then the other model.
 
