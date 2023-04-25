@@ -43,7 +43,7 @@
 ## 3. [Predicting the Price of a Property](https://github.com/GHASS19/Predicting-the-Price-of-a-Property)
 
 ### Main Ideas
-- I tested four different models with a standard scaler on each one for my supervised regression price prediction of a home in the Seattle metro area.
+- I tested four different models, (Linear Regression, Ridge Regression, Random Forest Regression and XGB Regression) with a standard scaler on each one for my supervised regression price prediction of a home in the Seattle metro area.
 - The most accurate R2 score on the test data was Linear Regression at .4696. It would be hard to predict the price of a home if you get less than half of them correct.
 
 ### Key Findings
